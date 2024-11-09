@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+    
 int main() {
 	std::string greeting = "Hello";
 	std::string complete_greeting = greeting + " there";
