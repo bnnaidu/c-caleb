@@ -2,13 +2,8 @@
 
 int main() {
     int dec_num = 30; // thirty
-    cout << dec_num << endl;
-
-    int hex_num = 0x30; // forty eight
-    cout << hex_num << endl;
-
-    int oct_num = 030; // twenty four
-    cout << oct_num << endl;
+    cout << std::hex << dec_num << endl;
+    cout << std::oct << dec_num << endl;
 
     return 0;
 }
